@@ -1,14 +1,18 @@
-﻿{
+{
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.1",
       "type": "platform"
     },
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
-    
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
-    "Microsoft.Extensions.Logging.Console": "1.0.0"
+    "Microsoft.Extensions.Logging.Console": "1.0.0",
+    "Microsoft.AspNet.WebApi.Core": "5.2.3",
+    "SimpleInjector": "4.0.8",
+    "SimpleInjector.Integration.WebApi": "4.0.8",
+    "SimpleInjector.Integration.AspNetCore": "4.0.8",
+    "SimpleInjector.Extensions.LifetimeScoping": "4.0.0"
   },
 
   "tools": {
