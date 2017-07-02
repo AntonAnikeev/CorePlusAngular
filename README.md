@@ -1,3 +1,5 @@
 # CorePlusAngular
 7/2/2017
-Next: Setup IoC container 
+Next:
+Add support for static files
+Setup IoC container 
