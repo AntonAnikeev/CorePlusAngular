@@ -29,12 +29,19 @@ namespace Server
                 app.UseDeveloperExceptionPage();
             }
 
+            //Add swagger
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
+
+            //Setup WebApi
             app.UseMvcWithDefaultRoute();
+
+            //Add static files 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
         }
     }
 }

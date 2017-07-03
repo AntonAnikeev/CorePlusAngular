@@ -1,5 +1,5 @@
---temp-output:F:\Projects\Study\CorePlusAngular\Server\src\Server\obj\Debug\netcoreapp1.0\
---out:F:\Projects\Study\CorePlusAngular\Server\src\Server\bin\Debug\netcoreapp1.0\Server.dll
+--temp-output:f:\Projects\Study\CorePlusAngular\Server\src\Server\obj\Debug\netcoreapp1.0\
+--out:f:\Projects\Study\CorePlusAngular\Server\src\Server\bin\Debug\netcoreapp1.0\Server.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -176,7 +176,7 @@
 --reference:C:\Users\Anton1\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Anton1\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\Anton1\.nuget\packages\System.Xml.XPath\4.0.1\ref\netstandard1.3\System.Xml.XPath.dll
---resource:"F:\Projects\Study\CorePlusAngular\Server\src\Server\obj\Debug\netcoreapp1.0\Serverdotnet-compile.deps.json",Server.deps.json
-F:\Projects\Study\CorePlusAngular\Server\src\Server\Program.cs
-F:\Projects\Study\CorePlusAngular\Server\src\Server\Startup.cs
-F:\Projects\Study\CorePlusAngular\Server\src\Server\Controllers\ValuesController.cs
+--resource:"f:\Projects\Study\CorePlusAngular\Server\src\Server\obj\Debug\netcoreapp1.0\Serverdotnet-compile.deps.json",Server.deps.json
+f:\Projects\Study\CorePlusAngular\Server\src\Server\Program.cs
+f:\Projects\Study\CorePlusAngular\Server\src\Server\Startup.cs
+f:\Projects\Study\CorePlusAngular\Server\src\Server\Controllers\ValuesController.cs
