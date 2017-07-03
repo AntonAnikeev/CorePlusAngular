@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Server.Services;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,6 +12,13 @@ namespace Server.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private readonly IMyService _myService;
+
+        public ValuesController(IMyService myService)
+        {
+            _myService = myService;
+        }
+
         // GET: api/values
         [HttpGet]
         public IEnumerable<string> Get()

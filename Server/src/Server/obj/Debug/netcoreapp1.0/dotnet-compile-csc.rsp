@@ -85,6 +85,8 @@
 -r:"C:\Users\Anton1\.nuget\packages\SimpleInjector\4.0.8\lib\netstandard1.3\SimpleInjector.dll"
 -r:"C:\Users\Anton1\.nuget\packages\SimpleInjector.Extensions.LifetimeScoping\4.0.0\lib\netstandard1.0\SimpleInjector.Extensions.LifetimeScoping.dll"
 -r:"C:\Users\Anton1\.nuget\packages\SimpleInjector.Integration.AspNetCore\4.0.8\lib\netstandard1.6\SimpleInjector.Integration.AspNetCore.dll"
+-r:"C:\Users\Anton1\.nuget\packages\SimpleInjector.Integration.AspNetCore.Mvc\4.0.8\lib\netstandard1.6\SimpleInjector.Integration.AspNetCore.Mvc.dll"
+-r:"C:\Users\Anton1\.nuget\packages\SimpleInjector.Integration.AspNetCore.Mvc.Core\4.0.8\lib\netstandard1.6\SimpleInjector.Integration.AspNetCore.Mvc.Core.dll"
 -r:"C:\Users\Anton1\.nuget\packages\Swashbuckle.AspNetCore\1.0.0\lib\netstandard1.6\Swashbuckle.AspNetCore.dll"
 -r:"C:\Users\Anton1\.nuget\packages\Swashbuckle.AspNetCore.Swagger\1.0.0\lib\netstandard1.6\Swashbuckle.AspNetCore.Swagger.dll"
 -r:"C:\Users\Anton1\.nuget\packages\Swashbuckle.AspNetCore.SwaggerGen\1.0.0\lib\netstandard1.6\Swashbuckle.AspNetCore.SwaggerGen.dll"
@@ -176,3 +178,4 @@
 "f:\Projects\Study\CorePlusAngular\Server\src\Server\Program.cs"
 "f:\Projects\Study\CorePlusAngular\Server\src\Server\Startup.cs"
 "f:\Projects\Study\CorePlusAngular\Server\src\Server\Controllers\ValuesController.cs"
+"f:\Projects\Study\CorePlusAngular\Server\src\Server\Services\IMyService.cs"
