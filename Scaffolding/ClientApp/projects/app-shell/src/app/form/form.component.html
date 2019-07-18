@@ -1,0 +1,10 @@
+<p>form works!</p>
+<form [formGroup]="myForm">
+  <label>
+    Name:
+    <input type="text" formControlName="name" >
+  </label>
+  <label> Value:
+    <span>{{valueOfInput| async}}</span>
+  </label>
+</form>
