@@ -1,6 +1,6 @@
 
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormBuilder, FormGroup } from '@angular/forms';
+import { FormControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -16,10 +16,9 @@ export class FormComponent implements OnInit {
 
   ngOnInit() {
     this.myForm = this.formBuilder.group({
-      name: ''
+      name: ['', Validators.minLength(10)]
     });
     this.valueOfInput = this.myForm.get('name').valueChanges;
-    this.myForm.get('name').valueChanges.subscribe((x) => console.log(x));
 
    }
 }
