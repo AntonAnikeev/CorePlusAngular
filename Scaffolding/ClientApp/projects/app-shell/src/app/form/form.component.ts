@@ -23,5 +23,6 @@ export class FormComponent implements OnInit {
 
    reset() {
     this.myForm.reset();
+    //possible statuses: pending(when async validation), pristine(first clear state), dirty, untouched, touched
    }
 }
