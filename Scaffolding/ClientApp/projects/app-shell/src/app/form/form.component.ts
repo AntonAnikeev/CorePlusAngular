@@ -19,6 +19,9 @@ export class FormComponent implements OnInit {
       name: ['', Validators.minLength(10)]
     });
     this.valueOfInput = this.myForm.get('name').valueChanges;
+   }
 
+   reset() {
+    this.myForm.reset();
    }
 }
